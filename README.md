@@ -1,2 +1,2 @@
-# Projected-learning-area
+# Project-learning-area
  native JavaScript
