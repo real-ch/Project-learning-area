@@ -1,0 +1,16 @@
+{
+  "name": "project-learning-area",
+  "version": "1.0.0",
+  "description": "v1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "project-learning-area"
+  },
+  "author": "ch",
+  "license": "ISC"
+}
+
