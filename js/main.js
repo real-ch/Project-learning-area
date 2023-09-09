@@ -1,3 +1,3 @@
 tbody = document.querySelector("body");
-tbody.textcontext = "hello world!";
+tbody.textContext = "hello world!";
 console.log(tbody); // <div>...</div>
