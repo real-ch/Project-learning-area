@@ -3,9 +3,9 @@
 // console.log(tbody); // <div>...</div>
 
 function addtitle(){
-  var btnAdd = document.querySelector('#btnAdd');
-  var tbody = document.querySelector("body");
-  var title = document.createElement("h1");
+  // var btnAdd = document.querySelector('#btnAdd');
+  // var tbody = document.querySelector("body");
+  // var title = document.createElement("h1");
   // var textnode = document.createTexContent('Hello World!');
   //var body = document.getElementsByTagName('body')[0];
  title.textContent = "Hello world!";
@@ -13,7 +13,11 @@ function addtitle(){
 }
 
 
-btnAdd.addEventListener("click",
-  addtitle
+btnAdd.addEventListener("click",()=>{
+var btnAdd = Document.querySelect("#btnAdd");
+console.log(btnAdd);
+btnAdd.textContent="hello world!";
+}
+  
 )
 
