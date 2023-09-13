@@ -18793,9 +18793,22 @@ progress {
   .d-print-none {
     display: none !important;
   }
-  
+}
+body {
+  padding: 1.5rem;
 }
 
- 
+
 
 /*# sourceMappingURL=styles.css.map */
+
+
+
+/* customzed style
+ */
+ .alpha { color: $purple; }
+img 
+{
+  color: $yellow-300;
+  background-color: $indigo-900;
+}
