@@ -1,8 +1,96 @@
 
-.topbar .topbar-left .topbar-logo img {
-  image-rendering: crisp-edges;
-  image-rendering: -webkit-optimize-contrast;
-  cursor: pointer;
-  height: 28px;
-  transition: transform 0.4s;
-} 
+html,body{
+
+  width:100%;
+  height:100%;
+  
+}
+
+*,::after,::before{
+  box-sizing: border-box;
+  -webkit-box-sizing:border-box;
+  marigin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.4375;
+  color: #333;
+  background-color: #fff;
+ 
+}
+html{
+
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+.clearfix:after{
+  
+ content: "";
+ overflow:hidden;
+
+}
+
+
+.topbar {
+  position: relative;
+  width: 100%;
+  height: 64px;
+  box-shadow: 0 2px 16px 0 rgba(31, 35, 41, 0.05);
+  z-index: 1;
+  /* 左侧区域 */
+  /* 右侧区域 */
+}
+.topbar .topbar-content{
+
+  margin:0 40px;
+  height:64px;
+  display:flex;
+
+
+}
+
+.topbar .topbar-left{
+
+   display:flex;
+
+}
+
+.topbar .topbar-left .topbar-logo  img{
+
+  image-rendering:crisp-edges;
+  cursor:pointer;
+  height:28px;
+  transform: transform 0.4s;
+}
+.topbar .topbar-left .topbar-logo img:hover{
+
+  transform:scale(1.04);
+}
+
+.topbar .topbar-right{
+
+  display:flex;
+  -ms-flex-pack:start ;
+  align-items: center;
+}
+
+.topbar .topbar-right .right-menu .menu-item .menu-item-link{
+
+  display:inline;
+  height: 2rem;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color:black;
+  margin-right: 38px;
+  padding: 0 0 4px;
+  transition: all 0.5s;
+}
+
+
+
+
