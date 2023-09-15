@@ -200,3 +200,18 @@ section {
     min-width: 80px;
   
 }
+
+
+.searchBannerIntro{
+ 
+  background-image: url("../image/bd_banner.png");
+  width:100%;
+  height:333px;
+  background-size:cover;
+  background-repreat:no-repeat;
+  /* background-position-x: 50%;
+  background-position-y: 50%; */
+  background-position:50% 50%;
+  /*   overflow: hidden; */
+   
+}

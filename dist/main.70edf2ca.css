@@ -201,4 +201,19 @@ section {
   
 }
 
+
+.searchBannerIntro{
+ 
+  background-image: url("/bd_banner.7068d1b9.png");
+  width:100%;
+  height:333px;
+  background-size:cover;
+  background-repreat:no-repeat;
+  /* background-position-x: 50%;
+  background-position-y: 50%; */
+  background-position:50% 50%;
+  /*   overflow: hidden; */
+   
+}
+
 /*# sourceMappingURL=/main.70edf2ca.css.map */
