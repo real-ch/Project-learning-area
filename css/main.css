@@ -2,7 +2,7 @@
 html,body{
 
   width:100%;
-  height:100%;
+  height:98%;
   
 }
 
@@ -16,81 +16,187 @@ html,body{
 body{
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
-  line-height: 1.4375;
-  color: #333;
+  line-height: 1.5;
   background-color: #fff;
  
 }
 html{
 
-    font-family: sans-serif;
+    font-family: sans-serif; 
+    line-height: 1.5px;
     -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%;
 }
 
-.clearfix:after{
+/* atsx-layout,atsx-layout *{
   
- content: "";
- overflow:hidden;
+  box-sizing:border-box;
 
-}
-
+} */
 
 .topbar {
-  position: relative;
-  width: 100%;
-  height: 64px;
-  box-shadow: 0 2px 16px 0 rgba(31, 35, 41, 0.05);
-  z-index: 1;
-  /* 左侧区域 */
-  /* 右侧区域 */
+  position:relative;
+  width:90%;
+  height:64px;
+  box-shadow:0 2px 16px 0 rgba(31,35,41,0.05);
+  z-index:1;
 }
+
 .topbar .topbar-content{
 
-  margin:0 40px;
-  height:64px;
-  display:flex;
-
+  marigin: 0 40px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
 
 }
 
 .topbar .topbar-left{
 
-   display:flex;
+  display: flex;
+  justify-content:flex-start ;
+  align-items: center;
 
 }
 
-.topbar .topbar-left .topbar-logo  img{
+.topbar .topbar-left .topbar-logo img{
 
-  image-rendering:crisp-edges;
-  cursor:pointer;
-  height:28px;
-  transform: transform 0.4s;
-}
-.topbar .topbar-left .topbar-logo img:hover{
+  image-rendering: crisp-edges;
+  cursor: pointer;
+  height: 28px;
+  transition: 1.4s;
+  margin:10px 0px 0px 30px;
 
-  transform:scale(1.04);
 }
 
 .topbar .topbar-right{
 
-  display:flex;
-  -ms-flex-pack:start ;
+  display: flex;
+  justify-content: flex-start;
   align-items: center;
 }
 
-.topbar .topbar-right .right-menu .menu-item .menu-item-link{
+.right-menu{
 
-  display:inline;
-  height: 2rem;
-  font-size: 1.05rem;
-  font-weight: 500;
-  color:black;
-  margin-right: 38px;
-  padding: 0 0 4px;
-  transition: all 0.5s;
+  display:flex;
+  height:24px;
+
+}
+
+
+.right-menu .menu-item{
+
+  margin-right:34px;
+  position:relative;
+}
+
+.right-menu h2{
+
+  line-height:30px;
+  margin:0;
+
+}
+
+.right-menu .a{
+
+  font-size:14px;
+  color:#3e4c5b;
+  text-decoration: none;
+
+
+}
+
+.right-menu .menu-item a {
+  
+  text-color: #c0c0c0;
+  text-decoration: none;
+} 
+
+/* .right-menu .item-link-active a {
+  text-decoration:none;
+} */
+
+
+.right-menu .item-link-active a::after {
+  content: '';
+  display: block;
+  width: 24px;
+  height: 2px;
+  /*! position: absolute; */
+  /* left: calc(50% - 10px); */
+  bottom: -2px;
+  background-color: #325ab4;
 }
 
 
 
 
+.right-menu a{
+
+  font-size:14px;
+  color:#3e4c5b;
+}
+
+
+
+.topbar .topbar-user{
+
+  display: flex;
+  align-items:center;
+}
+
+.topbar .topbar-user .login-btn{
+
+  color: #3e4c5b;
+  top:10px;
+  min-width:60;
+  font-size: 14px;
+  max-height:22px;
+}
+
+.atsx-btn > i, .atsx-btn > btn {
+
+  display: inline-block;
+  pointer-events:none;
+}
+
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+code,form,fieldset,legend,input,
+textarea,p,blockquote,th,td,hr,button,
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,
+section {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+
+.atsx-btn{
+
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    font-weight: normal;
+    white-space: nowrap;
+    text-align: center;
+    background-image: none;
+    border: 1px solid transparent;
+    box-shadow: none;
+    cursor: pointer;
+    transition: padding 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
+    /* height: 30px; */
+    padding: 0px 10px;
+    font-size: 14px;
+    border-radius: 1px;
+    min-width: 80px;
+  
+}
