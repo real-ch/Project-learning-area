@@ -211,9 +211,19 @@ section {
   position:relative;
 }
 
-.search .searchBlockArea{
+.header .search{
 
-  width:100%;
+  width: 100%;
+}
+
+.header.searchBlockArea{
+
+  display:block;
+  height:20px;
+  text-align:center;
+  margin-top:-25px;
+
+
 }
 
 .searchBannerIntro{
@@ -259,29 +269,7 @@ section {
   lin-height:1.5;
 }
 
-/* .search{
-  border-color:red;
-} */
-.search-block{
-    
-  display:block;
-}
-.header .search-block{
 
-  height:50%;
-  text-align:center;
-  margin-top:-25px;
-  
-
-}
-
-.header .searchInput{
-  width:840px;
-  height:100%;
-  border-radius:0 8px 24px 0 rgba(54,97,174,0.14);
-  font-size:16px;
-
-}
 
 
 
