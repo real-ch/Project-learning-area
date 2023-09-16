@@ -269,5 +269,27 @@ section {
   lin-height:1.5;
 }
 
+.
+
+
+.searchblock{
+
+display: block;
+
+}
+
+.searchblock-input{
+
+  height:50px;
+  text-align:center;
+  margin-top:-25px;
+  
+}
+
+
+.searchblock-input-prefix{
+
+
+}
 
 
