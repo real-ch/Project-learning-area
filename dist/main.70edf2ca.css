@@ -201,6 +201,20 @@ section {
   
 }
 
+.listContainer{
+  display: flex;
+  felx-direction:column;
+}
+.header{
+  width:100%;
+  margin-bottom:50px;
+  position:relative;
+}
+
+.search .searchBlockArea{
+
+  width:100%;
+}
 
 .searchBannerIntro{
 
@@ -216,7 +230,58 @@ section {
    
 }
 
+.searchBannerIntro .searchBannerIntro_text{
 
+  color:#fff;
+  width: 100%;
+  height:100%;
+  text-align:center;
+  margin:0;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+
+}
+
+.searchBannerIntro_tag{
+  transform:(0px);
+  opacity:2;
+  /* font-weight:bold; */
+}
+
+.searchBannerIntro .searchBannerIntro_text .searchBannerIntro_tag{
+  
+  height:60px;
+  text-align:center;
+  color:#fff;
+  font-size:48px;
+  font-weight:blod;
+  lin-height:1.5;
+}
+
+/* .search{
+  border-color:red;
+} */
+.search-block{
+    
+  display:block;
+}
+.header .search-block{
+
+  height:50%;
+  text-align:center;
+  margin-top:-25px;
+  
+
+}
+
+.header .searchInput{
+  width:840px;
+  height:100%;
+  border-radius:0 8px 24px 0 rgba(54,97,174,0.14);
+  font-size:16px;
+
+}
 
 
 
