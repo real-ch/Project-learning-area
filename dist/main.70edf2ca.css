@@ -20,6 +20,7 @@ body{
   background-color: #fff;
  
 }
+
 html{
 
     font-family: sans-serif; 
@@ -28,11 +29,11 @@ html{
     -webkit-text-size-adjust: 100%;
 }
 
-/* atsx-layout,atsx-layout *{
+.atsx-layout,.atsx-layout *{
   
   box-sizing:border-box;
 
-} */
+}
 
 .topbar {
   position:relative;
@@ -48,7 +49,8 @@ html{
   height: 60px;
   display: flex;
   justify-content: space-between;
-  align-items:center;
+  
+  
 
 }
 
@@ -129,16 +131,11 @@ html{
   background-color: #325ab4;
 }
 
-
-
-
 .right-menu a{
 
   font-size:14px;
   color:#3e4c5b;
 }
-
-
 
 .topbar .topbar-user{
 
@@ -206,23 +203,20 @@ section {
   felx-direction:column;
 }
 .header{
+
   width:100%;
   margin-bottom:50px;
   position:relative;
 }
 
-.header .search{
-
-  width: 100%;
-}
 
 .header.searchBlockArea{
 
-  display:block;
-  height:20px;
+  height:100%;
   text-align:center;
   margin-top:-25px;
-
+  display:block;
+ 
 
 }
 
@@ -267,31 +261,36 @@ section {
   font-size:48px;
   font-weight:blod;
   lin-height:1.5;
-}
-
-.
-
-
-.searchblock{
-
-display: block;
 
 }
 
-.searchblock-input{
+.header .search-block{
 
-  height:50px;
+  display: block;
+  opacity:1;
+
+  width:100%;
+  min-height:50px;
+  border:solid red 1px;
+
   text-align:center;
   margin-top:-25px;
   
-}
-
-
-.searchblock-input-prefix{
-
 
 }
 
+.header .search-input{
+  
+  width:800px;
+  height:60px;
+  border-radius:10px;
+  
+  box-shadow:0 8px 24px 0 #c0c0c0;
+  font-size:16px;
+
+  display:inline-block;
+
+}
 
 
 
