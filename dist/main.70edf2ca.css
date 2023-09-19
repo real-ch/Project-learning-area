@@ -432,15 +432,35 @@ section {
 
 }
 
-.footer .footerwrpper{
+.footer .footerwrapper{
 
   marigin:56px 40px;
   padding:0;
   display:flex;
   flex-direction:row;
   justify-content:space-between;
-  
+  /* background-color:#804000; */
   font-weight:normal;
 }
+
+.footer .footerwrapper .currentLanguage::after{
+
+  content: '';
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-top: 1px solid #325ab4;
+  border-right: 1px solid #325ab4;
+  -ms-transform: rotate(135deg) scale(0.8);
+      transform: rotate(135deg) scale(0.7);
+  margin-left: 6px;
+  top: -1px;
+  position:relative;
+  transition: all 0.5s;
+  
+  
+}
+
+
 
 /*# sourceMappingURL=/main.70edf2ca.css.map */
