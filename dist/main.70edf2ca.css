@@ -240,6 +240,7 @@ section {
   /* background-position-x: 50%;
   background-position-y: 50%; */
   background-position:50% 50%;
+  
 
    
 }
@@ -457,9 +458,18 @@ section {
   top: -1px;
   position:relative;
   transition: all 0.5s;
-  
-  
+   
 }
+
+.listContainer .content{
+
+  display:flex;
+  /* width:1006px; */
+  margin:auto;
+  margin-bottom:60px;
+
+}
+
 
 
 

@@ -64,8 +64,8 @@
         <!-- content  -->
         <section class="atsx-layout">
           <main class="atsx-layout-content">           
-            <div class="listContainer">       
-              <div class="header">                                       
+            <div class="listContainer" style="display: block;">       
+         <div class="header">                                        
                   <div class="searchBlockArea">               
                     <div class="searchBannerIntro">
                       <div class="searchBannerIntro_text">
@@ -76,8 +76,11 @@
                       </div>                 
                     </div>
 
+
+
+
                     <div class="search-block">                  
-                      <span class="search-input">
+                      <span class="search-input" "="">
                           <span class="search-icon">
                             <i class="searchicon" aria-label="icon:search">
                               <svg class="" viewBox="64 64 896 896" data-icon="search" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false">
@@ -88,15 +91,392 @@
                           <span class="input-btn">
                             <button class="search-btn" type="button" data-test="searchBlockBtn"><span>Search</span></button>
                           </span>
-                      </span>
-                  
+                      </span>                
                   </div>
                </div>
+            </div>
+           <!-- filter content -->
+            <div class="content">
+              <div class="leftFilter">
+                <div class="filterHeader">
+                  <span class="filterTitle"> Filter</span>
+                  <span class="filterClear">Clear</span>
+                </div>
+                <div class="TreeFilterType" data-test="TreeFilterType">
+                  <div class="optionTitle">Job Type</div>
+                  <div class="optionFilter">
+                    <ul class="Tree-icon" role="tree" unselectable="on">
+                      <li class="atsx-treenode-switcher-close" role="treeitem">
+                        <span class="atsx-tree-check">
+                          <span class="atsx-tree-check-inner">
+                            ::after{}
+                          </span>
+                        </span>
+                        <span class="atsx-tree-nonde-content-wrapper ">
+                          <span class=" atsx-tree-title">
+                            <span>
+                              <div class="filter-text-item">
+                                <span>Experienced</span>
+                              </div>
+                            </span>
+                          </span>
+                        </span>
+                      </li>
+
+                      <li class=" atsx-tree-treenode-switcher-close" role="treeitem">
+                        <span class="atsx-tree-checkbox">
+                          <span class="atsx-tee-checkbox-inner">
+                            ::after{}
+                          </span>
+                        </span>
+                         <span class="atsx-tree-node-content-wrapper">
+                          <span class="atsx-tree-title">
+                            <span>
+                            <div class="filter-text-item">
+                              <span>Intern</span>
+                            </div>
+                          </span>
+                         </span>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="TreeFilterCategory" data-test="TreeFilterCategory">
+                  <div class="optionTitle">Job Category</div>
+                  <div class="optionFilter">
+                    <ul class="atsx-tree-icon-hide" role="tree" unselectable="on">
+                      <li class="atsx-tree-treenode-switcher-close" role="treeitem">
+                        <span class="atsx-tree-checkbox">
+                          ::after{}
+                        </span>
+                        <span class="atsx-tree-node-content-wrapper">
+                          <span class="atsx-tree-title">
+                            <span>
+                              <div class="filter-text-item">
+                                <span>R&D</span>
+                              </div>
+                            </span>
+                          </span>
+                        </span>
+                      </li>
+
+                      <li class="atsx-tree-treenode-switcher-close" role="treeitem">
+                        <span class="atsx-tree-checkbox">
+                          <span class="atsx-tree-checkbox-inner">
+                            ::after{}
+                          </span>
+                        </span>
+
+                        <span class="atsx-tree-node-content-wrapper">
+                          <span class="atsx-tree-title">
+                            <span>
+                              <div class="filter-text-item">
+                                <span>Operations</span>
+                              </div>
+                            </span>
+                                            
+                          </span>
+                        </span>
+                      </li>
+
+                      <li class="atsx-tree-treenode-switcher" role="treeitem">
+                        <span class="atsx-tree-checkbox">
+                          
+                            <span class="atsx-tree-checkbox-inner">
+                              ::after{}
+                            </span>
+                          </span>
+                        
+                        <span class="atsx-tree-node-content-wrapper">
+                          <span>
+                            <div class="filter-text-item">
+                              <span>Product</span>
+                            </div>
+                          </span>
+                        </span>
+                        </li>
+
+                        <li class="atsx-treenode-switcher-close" role="treeitem">
+                          <span class="atsx-tree-checkbox">
+                            <span class="atsx-tree-checkbox-innner">
+                              ::after{}
+                            </span>
+                          </span>
+                          <span class="atsx-tree-node-content-wrapper">
+                            <span class="atsx-treee-title">
+                              <span>
+                                <div class="filter-text-item">
+                                  <span>Sales</span>
+                                </div>
+                              </span>
+                            </span>
+
+                          </span>
+
+                        </li>
+                        <li class="atsx-tree-treenode-switcher-close" role="treeitem">
+                          <span class="atsx-tree-checkbox">
+                            <span class="atsx-tree-checkbox-inner">
+                              ::after{}
+                            </span>
+                          </span>
+                          <span class="atsx-tree-node-content-wrapper">
+                            <span class="atsx-tree-title">
+                              <span>
+                                <div class="filter-text-item">
+                                  <span>Corporate Function / Support</span>
+                                </div>
+                              </span>
+                            </span>
+                          </span>
+
+
+                        </li>
+
+                        <li class="atsx-tree-treenode-switcher-close" role="treeitem">
+                          <span class="atsx-tree-checkbox">
+                            <span class="atsx-tree-checkbox-inner">
+                              ::after{}
+                            </span>
+                          </span>
+                          <span class="atsx-tree-node-content-wrapper">
+                            <span class="atsx-tree-title">
+                              <span>
+                                <div>
+                                  <span>Marketing</span>
+                                </div>
+                          
+                              </span>
+                            </span>
+                          </span>
+
+
+                        </li>
+
+                        <li class="atsx-tree-treenode-switcher-close" role="treeitem">
+                          <span class="ats-tree-checkbox">
+                            <span class="atsx-tree-checkbox-inner">
+                              ::afer{}
+                            </span>
+                          </span>
+                          <span class="atsx-tree-node-conent-wrapper">
+                            <span class="atsx-tree-title">
+                              <span>
+                                <div class="filter-text-item">
+                                  <span>Design</span>
+                                </div>
+                              </span>
+                            </span>
+                          </span>
+
+
+                        </li>
+                        <li class="atsx-tree-treenode-switcher-close" role="treeitem">
+                          <span class="atsx-tree-checkbox">
+                            <span class="atsx-tree-checkbox-inner">
+                              ::after{}
+                            </span>
+                          </span>
+                          <span class="atsx-tree-node-wrapper">
+                            <span class="atsx-tree-title">
+                              <span>
+                                <div class="filter-text-item">
+                                  <span>Game Design</span>
+                                </div>
+                              </span>
+                            </span>
+                            
+                          </span>
+
+
+                        </li>
+
+                        <li class="atsx-tree-treenode-switcher-close" role="treeitem">
+                          <span class="atsx-tree-checkbox">
+                            <span class="atsx-tree-checkbox-inner">
+                              ::after{}
+                            </span>
+                          </span>
+                          <span class="atsx-tree-node-content-wrapper">
+                            <span class="atsx-tree-title">
+                              <span>
+                                <div class="filter-text-item">
+                                  <span>Teaching and researching</span>
+                                </div>
+                              </span>
+                            </span>
+                          </span>
+                        </li>
+                 
+                    </ul>
+                  </div>
+                </div>
+                <div class="TreeFilterCity" data-test="TreeFilterCity">
+                  <div class="optionTitle">Location</div>
+                  <div class="optionFilter">
+                    <ul class="atsx-tree-icon-hide" role="tree" unselectable="on">
+                      <li class="atsx-tree-treenode-switcher-close" role="tree">
+                        <span class="atsx-tree-checkbox">
+                          <span class="atsx-tree-checkbox-inner">
+                            ::after{}
+                          </span>
+                        </span>
+                        <span class="atsx-tree-node-content-wrapper">
+                          <span class="atsx-tree-title">
+                            <span>
+                              <div class="atsx-tree-title">
+                                <span>Beijing</span>
+                              </div>
+                            </span>
+                          </span>
+                        </span>
+
+                      </li>
+                      <li class="atsx-tree-treenode-switcher-close" role="treeitem">
+                        <span class="atsx-tree-checkbox">
+                          <span class="atsx-tree-checkbox-inner">
+                            ::after{}
+                          </span>
+                        </span>
+                        <span class="atsx-tree-node-content-wrapper">
+                          <span class="atsx-tree-title">
+                            <span>
+                              <div class="filter-text-item">
+                                <span>Shanghai</span>
+                              </div>
+                            </span>
+                          </span>
+                        </span>
+
+
+                      </li>
+                      <li class="atsx-tree-treenode-switcher-close" role="treeitem">
+                        <span class="atsx-tree-checkbox">
+                          <span class="atsx-tree-checkbox-inner">
+                            ::after{}
+                          </span>
+                        </span>
+                        <span class="atsx-tree-node-content-wrapper">
+                          <span class="atsx-tree-title">
+                            <span>
+                              <div class="filter-text-item">
+                                <span>Shenzhen</span>
+                              </div>
+                            </span>
+                          </span>
+
+                        </span>
+                       
+
+                      </li>
+                      <li class="atsx-tree-treenode-switcher-close" role="treeitem">
+                        <span class="atsx-tree-checkbox">
+                          <span class="atsx-tree-checkbox-inner">
+                            ::afer{}
+                          </span>
+
+                        </span>
+                        <span class="atsx-tree-node-content-wrapper">
+                          <span class="atsx-tree-title">
+                            <span>
+                              <div class="filter-text-item">
+                                <span>Hangzhou</span>
+                              </div>
+                            </span>
+                          </span>
+                        </span>
+
+
+                      </li>
+                      <li class="atsx-tree-treenode-switcher-close" role="treeitem">
+                        <span class="atsx-tree-checkbox">
+                          <span class="atsx-tree-checkbox-inner">
+                            ::after{}
+                          </span>
+                        </span>
+                        <span class="atsx-tree-content-wrapper">
+                          <span class="atsx-tree-title">
+                            <span>
+                              <div class="filter-text-item">
+                                <span>Singapore</span>
+                              </div>
+                            </span>
+                          </span>
+                        </span>
+
+                      </li>
+                      <li class="atsx-tree-treenode-switcher-close" role="treeitem">
+                        <span class="atsx-tree-checkbox">
+                          <span class="atsx-tree-title">
+                            <span>
+                              <div class="filter-text-item">
+                                <span>Guangzhou</span>
+                              </div>
+                            </span>
+                          </span>
+                        </span>
+
+                      </li>
+                      <li class="atsx-tree-treenode-switcher-close">
+                        <span class="atsx-tree-checkbox">
+                          <span class="atsx-treebox-inner">
+                            ::after{}
+                          </span>
+                        </span>
+                        <span class="atsx-tree-node-content-wrapper">
+                          <span class="atsx-tree-title">
+                            <span>
+                              <div class="filter-text-item">
+                                <span>San Jose</span>
+                              </div>
+                            </span>
+                          </span>
+                          </span>
+
+
+                      </li>
+                                      
+
+                    </ul>
+                    <div class="more">
+                      <i class="anticon">
+                        <svg class="" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false"> 
+                          <path d="M8.485 1.37c-.072-.037-.165-.037-.352-.037h-.266c-.187 0-.28 0-.352.037a.333.333 0 0 0-.145.145c-.037.072-.037.165-.037.352v5.466H1.867c-.187 0-.28 0-.352.037a.333.333 0 0 0-.145.145c-.037.072-.037.165-.037.352v.266c0 .187 0 .28.037.352a.333.333 0 0 0 .145.145c.072.037.165.037.352.037h5.466v5.466c0 .187 0 .28.037.352a.333.333 0 0 0 .145.145c.072.037.165.037.352.037h.266c.187 0 .28 0 .352-.037a.333.333 0 0 0 .145-.145c.037-.072.037-.165.037-.352V8.667h5.466c.187 0 .28 0 .352-.037a.333.333 0 0 0 .145-.145c.037-.072.037-.165.037-.352v-.266c0-.187 0-.28-.037-.352a.333.333 0 0 0-.145-.145c-.072-.037-.165-.037-.352-.037H8.667V1.867c0-.187 0-.28-.037-.352a.333.333 0 0 0-.145-.145z"></path>
+                        </svg>
+                      </i>
+                      <span class="moreText">
+                        More...
+                      </span>
+
+                      <div class="optioonBlock-select">
+                        <div class="atsx-select-selection" role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-controls="0a6f0903-f89d-4c65-9a61-6ddfd49c358f" aria-expanded="false" tabindex="0">
+                          <div class="atsx-select-seletion_rendered" data-cy="contentRender">
+                           <div class="atsx-select-selection-selected-value" data-cy="selectedValue">
+                            <span class="atsx-clap-content"></span>
+                           </div>
+                           ::after{}
+                        </div>
+                      </div>
+                      ::after{}
+                    </div>
+                  </div>
+
+              </div>
+            </div>
+            <div class="Tag optionBlock" data-test="Tag">
+
+
+
 
             </div>
-  <!-- filter content -->
-<!-- <div></div> -->
-          </div></main>
+
+            
+              <div class="rightBlock"></div>
+            </div>
+            <!-- content below -->
+          </div></div></main>
         </section>
         <!-- footer -->
         <div class="footer">
@@ -110,7 +490,7 @@
               <div class="footerItem_left_Item">
                 <span class="footerItemTitle">Related website:</span>
                 <a class="footerItemTitle" href="" target="_blank" rel="noopener noreferrer"> ByteDance</a><span class="divider"> |</span>
-                <a href="https://" class="footerItemContent" target="_blank" rel="noopener noreferrer">Carrers in China</a>
+                <a href="https:// " class="footerItemContent" target="_blank" rel="noopener noreferrer">Carrers in China</a>
               </div>
               <div class="footerItem_left_Item">
                 
