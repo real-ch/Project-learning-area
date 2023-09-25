@@ -9,7 +9,7 @@ html,body{
 *,::after,::before{
   box-sizing: border-box;
   -webkit-box-sizing:border-box;
-  marigin: 0;
+  margin: 0;
   padding: 0;
 }
 
@@ -53,7 +53,7 @@ flex-direction:column;
 
 .topbar .topbar-content{
 
-  marigin: 0 40px;
+  margin: 0 40px;
   height: 60px;
   display: flex;
   justify-content: space-between;
@@ -351,7 +351,7 @@ section {
 
   resize:none;
   box-sizing:border-box;
-  marigin: 0;
+  margin: 0;
   font-variant:tabular-nums;
   font-feature-settings:'tnum';
   display:inline-block;
@@ -423,7 +423,7 @@ section {
   touch-action:manipulation;
   min-width:80px;
 
-  marigin:0;
+  margin:0;
 }
 
 .header .search-input input:focus,
@@ -435,7 +435,7 @@ section {
 
 .footer .footerwrapper{
 
-  marigin:56px 40px;
+  margin:56px 40px;
   padding:0;
   display:flex;
   flex-direction:row;
@@ -465,10 +465,268 @@ section {
 
   display:flex;
   /* width:1006px; */
-  margin:auto;
+  margin:0px 100px 50px 100px;
   margin-bottom:60px;
+  /* justify-adjust:center; */
 
 }
+
+.leftFilter{
+
+  flex-shrink:0;
+  width:276px;
+  margin-right:35px;
+  position:relative;
+
+}
+
+.leftFilter .filterHeader{
+
+  font-size:14px;
+  color:#3e4c5b;
+  border-bottom:1px solid #eff1f1;
+  padding-bottom:12px;
+  margin-top:10px;
+  margin-bottom:23px;
+  font-weight:800;
+}
+
+
+.leftFilter .filterClear{
+
+  font-weight:500;
+  color:#325ab4;
+  float: right;
+}
+
+.TreeFilterType .optionTitle{
+
+  font-size:18px;
+  font-weight:bold;
+  color:#3e4c5b;
+  margin-bottom:9px;
+  /* border:1px solid #0f1c37; */
+}
+
+
+.optionFilter .Tree-icon{
+
+  box-sizing:border-box;
+  color:#3e4c5b;
+  font-size:14px;
+  font-variant:tabular-nums;
+  line-height:1.5;
+  list-style:none;
+  font-feature-settings:'tnum';
+  margin:0;
+  padding:0;
+
+}
+
+.optionFilter .optionTitle{
+
+  box-sizing:border-box;
+  color:#3e4c5b;
+  font-size:14px;
+  font-variant:tabular-nums;
+  line-height:1.5;
+  list-style:none;
+  font-feature-settings:'tnum';
+  margin:0;
+  padding:0;
+}
+
+/* .optionFilter.Tree-icon{  
+
+
+
+} */
+
+.Tree-icon > li:first-child{
+
+  margin-top:10px;
+  /* border:1px solid #163063; */
+}
+
+.Tree-icon li{
+  margin:0;
+  padding:0 0;
+  white-space:nowrap;
+  list-style:none;
+  outline:0;
+}
+div.optionFilter .Tree-icon .atsx-tree-checkbox{
+
+  margin-right:8px;
+}
+
+.Tree-icon li span.atsx-tree-checkbox{
+
+  top:initial;
+  height:38px;
+  margin:0 4px 0 2px;
+  padding:11px 0;
+}
+
+.atsx-tree-checkbox{
+
+  box-sizing:border-box;
+  /* border:1px solid #163063; */
+
+  color:#3b4857;
+  font-size:14px;
+  font-variant:tabular-nums;
+  list-style:none;
+  font-feature-settings:'tnum';
+  position:relative;
+  display:inline-block;
+  line-height:1;
+  white-space:nowrap;
+  vertical-align:middle;
+  outline:none;
+  cursor:pointer;
+}
+
+.atsx-tree-checkbox-inner{
+
+  position :relative;
+  top:0;
+  left:0;
+  display:block;
+  width:16px;
+  height:16px;
+  background-color:#fff;
+  border:1px solid #8f959e;
+  border-radius:2px;
+  /* border-top-loft-radius:2px
+  border-top-right-radius:2px
+  border-bottom-right-radius:2px
+  borser-bottom-left-radius:2px */
+
+  border-collapse:separate;
+  transition:all 0.3s;
+  /* transition-property:all
+  transition-duration:0.3s
+  transition-timing-function :ease
+  transition-delay:0s */
+
+
+}
+
+.atsx-tree-checkbox-inner::after{
+
+  position:absolute;
+  top:50%;
+  left:21%;
+  display:table;
+  width:5px;
+  height:9.14285714px;
+  border:1px solid #a24141;
+  border-top:0;
+  border-left:0;
+  transform:rotate(45deg) scale(0) translate(-50%,-50%);
+  opacity:0;
+  transition:all 0.1s cubic-bezier(0.71,-0.46,0.88,0.6),opacity 0.1s;
+  content:'';
+}
+
+.Tree-icon li .atsx-tree-node-content-wrapper{
+
+display:inline-block;
+height: 38px;
+margin: 0;
+/* margin-top margin-right margin-bottom margin-left */
+padding:0 5px 0 0;
+/* padding-top padding-right padding-bottom pading-left */
+color:#3a4148;
+line-height:38px;
+vertical-align:top;
+border-radius: 2px;
+cursor: pointer;
+position: relative;
+overflow: visible;
+
+}
+
+div.optionFilter .Tree-icon 
+.atsx-tree-node-content-wrapper{
+
+  width:90%;
+}
+
+
+div.optionFilter .atsx-tree-title .filter-text-item{
+
+  display: flex;
+  justify-content: spance-between;
+}
+
+div.optionFilter .Tree-icon >li:last-child{
+
+  margin-bottom:0;
+}
+
+.Tree-icon li{
+
+  margin:0;
+  padding:0 0;
+  white-space:nowrap;
+  /* top-right-left-bottom  //Counterclockwise*/
+  list-style:none;
+  outline:0;
+/* outline-color outline-style outline-width */
+/* outline-color:currentcolor
+outline-style:none
+outline-width 0px */
+}
+.Tree-icon li span.atsx-tree-checkbox{
+
+ top:initial;
+ height:38px;
+ margin: 0 4px 0 2px;
+ padding:11px 0;
+}
+
+
+div.TreeFilterType .Tree-icon,
+.optionFilter{
+
+  margin-bottom:30px;
+  position:relative;
+}
+
+div.TreeFilterCategory .optionTitle{
+  font-size:18px;
+  font-weight:bold;
+  color: #3e4c5b;
+  margin-bottom: 9px;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+.Tree-icon  li .atsx-tree-node-content-wrapper .atsx-tree-title{
+
+  display: inline-block;
+  width:100%;
+}
+
+div.optionFilter .atsx-tree-title{
+
+  font-weight:500;
+}
+
+.optionFilter .more{
+  color:#325ab4;
+  width:234px;
+  position:relative;
+  cursor:pointer;
+
+}
+
+
+
 
 
 
