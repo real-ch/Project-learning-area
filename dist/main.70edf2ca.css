@@ -129,14 +129,17 @@ flex-direction:column;
 
 
 .right-menu .item-link-active a::after {
-  content: '';
-  display: block;
-  width: 24px;
-  height: 2px;
-  /*! position: absolute; */
-  /* left: calc(50% - 10px); */
+  
+  content:'';
+  display:block;
+  width:24px;
+  height:2px;
+  position: absolute;   
+  left: calc(50% - 12px);
+  /* left: calc(50% - 12px); */
   bottom: -2px;
   background-color: #325ab4;
+ 
 }
 
 .right-menu a{
@@ -208,7 +211,7 @@ section {
 
 .listContainer{
   display: flex;
-  felx-direction:column;
+  flex-direction:column;
 
 }
 .header{
@@ -726,8 +729,11 @@ div.optionFilter .atsx-tree-title{
 }
 
 
+.border{
 
-
+  border-left:1px solid ##6b4d4dfc ;
+ 
+}
 
 
 
