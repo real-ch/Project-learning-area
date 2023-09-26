@@ -735,6 +735,24 @@ div.optionFilter .atsx-tree-title{
  
 }
 
+.rightBlock .listTitle h1{
 
+  display:flex;
+  -ms-flex-pack:justify;
+  justify-content:space-between;
+  align-items: center;
+  height:36px;
+  line-height:36px;
+  font-size:36px;;
+  font-weight:bold;
+  color:#415163;
+  margin-bottom:18px;
+  margin-left:16px;
+}
+
+.rightBlock .borderContainer{
+
+ padding-left:30px;
+}
 
 /*# sourceMappingURL=/main.70edf2ca.css.map */

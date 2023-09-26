@@ -735,3 +735,64 @@ div.optionFilter .atsx-tree-title{
  
 }
 
+.rightBlock .listTitle h1{
+
+  display:flex;
+  -ms-flex-pack:justify;
+  justify-content:space-between;
+  align-items: center;
+  height:36px;
+  line-height:36px;
+  font-size:36px;;
+  font-weight:bold;
+  color:#415163;
+  margin-bottom:18px;
+  margin-left:16px;
+}
+
+.rightBlock .borderContainer{
+
+ padding-left:30px;
+}
+
+
+a{
+  color:#325ab4;
+  text-decoration:none;
+  background-color:#transparent;
+  outline:none;
+  cursor:pointer;
+  transition:color 0.3s;
+     /*transition-property:color;
+     transition-duration:0.3s;
+     transition-timing-function:ease;
+     transition-delay:0s;  */
+}
+
+.listItems .positionItem{
+
+  padding:22px 8px 18px 16px;
+  /* padding-top:22px; padding-right:8px; padding-bottom:18px;padding-left:16px; */
+  transition:box-shadow 0.5s;
+  /* transition-property:box-shadow;
+  transition-duration:0.5s;
+  transition-timing-function:ease;
+  transition-delay:0s; */
+}
+
+.positionItem .position-main-info-container{
+
+  display:flex;
+} 
+
+.positionItem .positionItem-title{
+
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  flex-wrap:wrap;
+  /* display:-ms-flexbox
+  -ms-flex-align:center;
+  -ms-flex-wrap:wwrap
+  -ms-flex-pack:start */
+}
