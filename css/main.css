@@ -731,9 +731,11 @@ div.optionFilter .atsx-tree-title{
 
 .border{
 
-  border-left:1px solid ##6b4d4dfc ;
+  border-left:1px solid ##d8d2d2fc ;
  
 }
+
+
 
 .rightBlock .listTitle h1{
 
@@ -904,7 +906,6 @@ span.tag-container{
 
  }
 
-
  .positionItem .positionItem-subTitle{
 
  font-size:16px;
@@ -980,4 +981,13 @@ span.tag-container{
 .positionItem .ud_tag{
 
   background-color:#774f09 !important;
+}
+
+
+.atsx-pagination{
+  box-sizing:border-box;
+  margin:0 ;
+  padding: 0;
+  font-size:14px;
+  
 }
