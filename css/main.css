@@ -983,11 +983,49 @@ span.tag-container{
   background-color:#774f09 !important;
 }
 
-
 .atsx-pagination{
   box-sizing:border-box;
   margin:0 ;
   padding: 0;
   font-size:14px;
+  font-variant:tabular-nums;
+  line-height:1.5;
+  list-style:none;
+  /* list-style-postion:oustside:none
+  list-style-image:none
+  list-style-type:none */
+  font-feature-settings:"tnum";
+  color:#222424;
   
 }
+
+.rightBlock .page .atsx-pagination-prev{
+
+  color:#eaedf0;
+  margin-right:20px;
+
+  display:inline-block;
+  min-width:20px;
+  height:20px;
+  color:#3e4c5b;
+  font-family:Arial;
+  text-align:center;
+  list-style:middle;
+  border-radius:4px;
+  /* border-top-left-radius:4px;
+  border-top-right-radius:4px
+  border-bottom-right-radius:4px;
+  border-bottom-left-redius:4px */
+
+}
+
+.atsx-pagination-prev{
+
+  cursor: not-allowed;
+  outline:0;
+  /* outline-color:currentcolor;
+  outline-style:none;
+  outline-width:0px; */
+}
+
+

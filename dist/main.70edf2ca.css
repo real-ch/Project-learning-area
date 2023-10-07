@@ -989,7 +989,16 @@ span.tag-container{
   margin:0 ;
   padding: 0;
   font-size:14px;
+  font-variant:tabular-nums;
+  line-height:1.5;
+  list-style:none;
+  /* list-style-postion:oustside:none
+  list-style-image:none
+  list-style-type:none */
+  font-feature-settings:"tnum";
+  color:#222424;
   
+
 }
 
 /*# sourceMappingURL=/main.70edf2ca.css.map */
